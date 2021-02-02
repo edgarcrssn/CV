@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="288" viewBox="0 0 1440 288">
+  <path id="wave" d="M0,32H48c48,0,144,0,240,21.3C384,75,480,117,576,160s192,85,288,80,192-59,288-85.3c96-26.7,192-26.7,240-26.7h48V320H0Z" transform="translate(0 -32)" fill="#eae6e1"/>
+</svg>

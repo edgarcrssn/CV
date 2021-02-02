@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://use.typekit.net/acg4yja.css">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="icon" href="img/icon.svg">
+		<title>Edgar Cresson</title>
+	</head>
+<body>
+
+	<header>
+
+		<div id="logo">
+			<h1
+			data-aos="fade-down"
+			data-aos-duration="1000">
+			Edgar<br><span id="cresson">Cresson</span></h1>
+
+			<img src="img/logo.svg" alt="Logo." id="EC"
+			data-aos="fade-down"
+			data-aos-duration="2000">
+		</div>
+
+		<nav>
+			<img src="img/mouse.svg" alt="Élément décoratif." id="mouse"
+			data-aos="fade-right"
+			data-aos-duration="2000">
+
+			<ul 
+			data-aos="fade-right"
+			data-aos-duration="1000">
+				<li><a href="#wave-1" class="ancre">Présentation</a></li>
+				<li><a href="#wave-2" class="ancre">Compétences</a></li>
+				<li><a href="#wave-3" class="ancre">Créations</a></li>
+				<li><a href="#wave-4" class="ancre">Contact</a></li>
+			</ul>
+		</nav>
+
+		<div id="card">
+			<img src="img/blob.svg" alt="Élément décoratif." id="blob">
+
+			<img src="img/pp.png" alt="Photographie d'Edgar Cresson." id="pp">
+				<p><span class="bold">Étudiant</span> en <span class="bold">première année</span> à <span class="blue">MyDigitalSchool</span></p>
+		</div>
+
+		<div id="pattern-header">
+			<img src="img/bg-pattern-top.svg" alt="Élément décoratif.">
+		</div>
+
+	</header>
+
+<img src="img/wave-1.svg" alt="Élément décoratif." id="wave-1" class="wave">
+
+	<section id="presentation">
+		<h2>Présentation</h2>
+
+		<div id="boxPresentation">
+			<div id="text" 
+			data-aos="fade-up"
+			data-aos-duration="1000">
+				<p>Je m’appelle <span class="bold">Edgar Cresson</span>, j’ai 18 ans et je suis étudiant en première année dans l’école <span class="blue">MyDigitalSchool</span>, à Lille. Je suis originaire des Ardennes, plus précisément de la ville de Sedan et je loue un appartement sur Lille le temps de mes études.<br><br>Depuis jeune, j’aime manipuler les logiciels de création, notamment ceux de la suite <span class="bold">Adobe</span>, afin de pouvoir mettre en forme mes idées créatives.<br><br>Ce domaine m’a toujours passionné, et j’ai appris grâce à un Forum des métiers que je pouvais faire de ce domaine mes études, en le liant à un autre domaine qui a toujours été omniprésent dans ma vie : <span class="bold">le Web</span>.</p>
+			</div>
+
+			<div id="mds">
+				<a href="https://www.mydigitalschool.com/" target="_blank"><img src="img/logo-mds.svg" alt="Logo de MyDigitalSchool."></a>
+			</div>
+		</div>
+
+		<img src="img/wave-2.svg" alt="Élément décoratif." id="wave-2" class="wave">
+
+	</section>
+
+
+
+	<section id="competences">
+		<h2>Compétences</h2>
+
+		<div id="boxCompetences">
+			<div class="divComp">
+				<img src="img/plume.svg" alt="Élément décoratif." id="plume"
+				data-aos="fade-right"
+				data-aos-duration="2000">
+
+				<p id="textLeft"
+				data-aos="fade-right"
+				data-aos-duration="1000">Je <span class="bold">maîtrise</span> des <span class="bold">logiciels</span> de la suite <span class="blue">Adobe</span>.<br><br>Photoshop, Illustrator, Xd, InDesign.</p>
+			</div>
+
+			<div id="brain">
+				<img src="img/brain.svg" alt="Illustration de mes compétences.">
+			</div>
+
+			<div class="divComp" data-aos="fade-left">
+				<img src="img/code.svg" alt="Élément décoratif." id="code"
+				data-aos="fade-left"
+				data-aos-duration="2000">
+
+				<p
+				data-aos="fade-left"
+				data-aos-duration="1000">Je <span class="bold">maîtrise</span> des <span class="bold">languages</span> de <span class="blue">programmation</span>.<br><br>HTML 5, CSS 3, JavaScript, PHP.</p>
+			</div>
+		</div>
+
+		<img src="img/wave-3.svg" alt="Élément décoratif." id="wave-3" class="wave">
+
+	</section>
+
+
+
+	<section id="creations">
+		<h2>Créations</h2>
+
+		<div>
+			<div>
+		
+			</div>
+
+			<div>
+				
+			</div>
+
+			<div>
+				
+			</div>
+		</div>
+
+		<img src="img/wave-4.svg" alt="Élément décoratif." id="wave-4" class="wave">
+
+	</section>
+
+
+
+	<section>
+		<h2 id="titleContact">Contact</h2>
+
+		<form method="post" action="#" name="contact" 
+		data-aos="fade-up"
+		data-aos-duration="1000">
+			<div>
+                <div>
+                    <input type="text" placeholder="Votre nom" name="nom"> 
+                </div>
+                
+                <div>
+                    <input type="email" placeholder="Votre e-mail" name="email"> 
+                </div>
+
+                <div>
+                    <input type="tel" placeholder="Votre numéro de téléphone" name="phone">  
+                </div>
+
+                <div>
+                    <textarea rows="5" placeholder="Votre message" name="message"></textarea>
+                </div>
+
+                <!--<?php
+                    if( isset($_POST["envoi"]) ){
+                        if( $_POST["message"]== '' || !isset($_POST["message"]) ){
+                            echo "Veuillez insérer un message avant envoi."; 
+                        }
+                        else{
+                            mail('edgar.cresson@my-digital-school.org','Coucou MDS', $_POST["message"]); 
+                            echo "Message envoyé, merci !";
+
+
+                            }
+                   	}
+                ?>-->
+                    
+                <div>
+                    <button type="submit" name="envoi">Envoyer</button>
+                </div>
+            </div>
+      	</form>
+
+      	<div id="plane-left">
+			<img src="img/plane-left.svg" alt="Élément décoratif.">
+		</div>
+		<div id="plane-right">
+			<img src="img/plane-right.svg" alt="Élément décoratif.">
+		</div>
+
+		<img src="img/wave-5.svg" alt="Élément décoratif." id="wave-5" class="wave">
+
+	</section>
+
+
+
+	<footer>
+		<div id="container-footer">
+			<div id="nav-footer">
+				<ul class="nav-footer-line">
+					<li><a href="#wave-1" class="ancre-footer">Présentation</a></li>
+					<li><a href="#wave-3" class="ancre-footer">Portfolio</a></li>
+				</ul>
+				<ul class="nav-footer-line">
+					<li><a href="#wave-2" class="ancre-footer">Compétences</a></li>
+					<li><a href="#wave-4" class="ancre-footer">Contact</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<a href="https://www.linkedin.com/in/edgarcresson/"><img src="img/linkedin.svg" alt="Linkedin"></a>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll("#card"), {
+            max: 25,
+            speed: 400
+        });
+	</script>
+	
+	<script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script type="text/javascript">
+		AOS.init();
+	  </script>
+
+	<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
